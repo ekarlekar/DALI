@@ -1,0 +1,163 @@
+"stickerboard" = "Stickerboard";
+"ok" = "OK";
+"version_string" = "v%@ (%@)";
+"readme_content" = "Copy your files to this directory.";
+"actions" = "Actions";
+"actions_footer" = "Copies the stickers from the app's documents directory to the keyboard. Remember to re-import after adding or removing any stickers.";
+"import_stickers" = "Import stickers";
+"playground" = "Playground";
+"playground_footer" = "Use this textbox to try out your stickers! Note that animations are disabled here.";
+"settings" = "Settings";
+"resize_stickers" = "Resize stickers";
+"resize_stickers_footer" = "Shrinks your stickers to 512x512 (or smaller, depending on the aspect ratio). This does not affect GIFs. You can override this option at any time by long pressing on a sticker.";
+"auto_switch_keyboard" = "Auto switch keyboard";
+"auto_switch_keyboard_footer" = "Automatically switches back to the previous keyboard after selecting a sticker.";
+"remember_selected_pack" = "Remember selected pack";
+"remember_selected_pack_footer" = "Opens the keyboard directly to the last selected sticker pack.";
+"about" = "About";
+"about_footer" = "Stickerboard %@";
+"view_tutorial" = "View tutorial";
+"tutorial" = "Tutorial";
+"visit_github" = "Visit project on GitHub";
+"changelog" = "Changelog";
+"no_stickers_found_banner" = "Didn't find any stickers to import";
+"imported_sticker_banner" = "Successfully imported 1 sticker";
+"imported_stickers_banner" = "Successfully imported %d stickers";
+"failed_import_banner" = "Failed to import stickers!";
+"skipped_stickers_title" = "Import succeeded";
+"skipped_stickers_body" = "We skipped the following files because they did not look like images:\n\n%@\n\nPlease ensure that your images are in PNG, JPEG, or GIF format.";
+"skipped_stickers_more" = "... (%d more)";
+"failed_import_dialog_title" = "Import failed";
+"failed_import_dialog_body" = "Unfortunately, we were unable to import any stickers. Our best guess at the problem:\n\n%@\n\nIf this looks like a bug, please submit an issue on GitHub and include the message above.";
+"done" = "Done";
+"tutorial_html" = "<body>
+<section>
+    <h1>Welcome to Stickerboard!</h1>
+    <p>
+        Before you can start sending stickers, there's a few steps you'll need to take:
+    </p>
+</section>
+<br>
+<section>
+    <h1>Enable the keyboard</h1>
+    <p>
+        You can enable Stickerboard by heading to:
+    </p>
+    <ol>
+        <li>Settings</li>
+        <li>Stickerboard</li>
+        <li>Keyboards</li>
+    </ol>
+    <br>
+    <p>
+        <a href=\"app-settings:\">Click here to directly open the Stickerboard settings page</a>
+    </p>
+</section>
+<br>
+<section>
+    <h1>Allow full access</h1>
+    <p>
+        Stickerboard requires full access to function. Don't worry, we aren't uploading
+        your stickers anywhere! All of your data stays on your device. Stickerboard only
+        needs full access to copy stickers to your clipboard.
+    </p>
+    <p>
+        To enable full access, open the Stickerboard settings (see section above), and toggle
+        the switch labeled \"Allow Full Access\".
+    </p>
+</section>
+<br>
+<section>
+    <h1>Add some stickers</h1>
+    <p>
+        You might have noticed that Stickerboard does not come with any stickers. That's
+        because <i>you</i> provide them! Stickerboard allows you to turn any image into a
+        sticker. Once you've added the images, just hit the import button and they will
+        appear in the keyboard.
+    </p>
+    <p>
+        How do you add the images, you ask? You can use any of the following methods:
+    </p>
+</section>
+<br>
+<section>
+    <h1>1. Share menu</h1>
+    <p>
+        Already have some images on your device you would like to use? Tap share, then select
+        the \"Save to Files\" option. When given the option, choose Stickerboard under
+        \"On My iPhone\".
+    </p>
+</section>
+<br>
+<section>
+    <h1>2. iTunes File Sharing</h1>
+    <p>
+        Want to copy stickers from your computer? You can use iTunes File Sharing to
+        drag and drop images from your computer directly into the Stickerboard app.
+    </p>
+</section>
+<br>
+<section>
+    <h1>3. Files app</h1>
+    <p>
+        You can use the built-in Files app to manage your stickers. Just copy the images
+        you want to add to the Stickerboard folder under \"On My iPhone\".
+    </p>
+</section>
+<br>
+<section>
+    <h1>Sticker packs</h1>
+    <p>
+        Too many stickers to handle? Create new sticker packs by organizing your images
+        into folders under the Stickerboard directory. Each folder will turn into a new
+        sticker pack.
+    </p>
+</section>
+<br>
+<section>
+    <h1>Can't remember all this?</h1>
+    <p>
+        No problem! You can revisit this tutorial at any time using the \"View tutorial\"
+        button within the app.
+    </p>
+</section>
+</body>";
+"changelog_html" = "<body>
+<section>
+    <h1>v1.2.0 - Dec 6, 2021</h1>
+    <p>
+        Happy one year anniversary! Updated the app to use iOS 15 styling.
+    </p>
+</section>
+<br>
+<section>
+    <h1>v1.1.1 - Jan 27, 2021</h1>
+    <p>
+        Added an option to disable the \"open previously selected sticker pack\" behavior.
+    </p>
+</section>
+<br>
+<section>
+    <h1>v1.1.0 - Dec 19, 2020</h1>
+    <p>
+        Added an option to automatically switch back to the previous keyboard after selecting
+        a sticker. Fixed a memory leak when repeatedly opening the keyboard. Page dots now align
+        correctly on devices with a home button.
+    </p>
+</section>
+<br>
+<section>
+    <h1>v1.0.1 - Dec 12, 2020</h1>
+    <p>
+        Fixed an occasional crash when the keyboard loads. Also improved the app icon a bit.
+    </p>
+</section>
+<br>
+<section>
+    <h1>v1.0 - Dec 6, 2020</h1>
+    <p>
+        This is the initial release! Thanks for being an early adopter. Come back in the
+        future to see what new features we've added.
+    </p>
+</section>
+</body>";

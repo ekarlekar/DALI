@@ -1,0 +1,9 @@
+﻿"full_access_required" = "Copying stickers requires full access";
+"no_stickers" = "It looks like you have no stickers!
+
+To get started, add your stickers to the Stickerboard documents folder, then hit the import button.";
+"failed_load_stickers" = "Something went wrong loading your stickers! Please file a bug report and include the following message:
+
+%@";
+"copied_to_clipboard" = "Copied '%@' to the clipboard";
+"failed_copy_to_clipboard" = "Failed to load '%@'";
